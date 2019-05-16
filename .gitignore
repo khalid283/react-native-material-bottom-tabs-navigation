@@ -9,3 +9,14 @@ dist
 
 # Dependency directory
 node_modules
+
+
+# examples/.flowconfig
+# examples/.buckconfig
+# examples/app.json
+# examples/babel.config.js
+# examples/metro.config.js
+# examples/package.json
+# examples/package-lock.json
+# examples/.watchmanconfig
+examples/__tests__
