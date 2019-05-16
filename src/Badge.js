@@ -5,7 +5,7 @@ import { black, white } from './styles/colors';
 // import { withTheme } from '../core/theming';
 import type { Theme } from './types';
 import colors from './styles/exportColors';
-import commonCSS from '../style/common';
+
 type Props = {|
   /**
    * Whether the badge is visible
@@ -71,7 +71,7 @@ class Badge extends React.Component<Props, State> {
             backgroundColor,
             color: textColor,
             fontSize: size * 0.5,
-            fontFamily: commonCSS.TextRegular.fontFamily,
+            // fontFamily: commonCSS.TextRegular.fontFamily,
             lineHeight: size,
             height: size,
             minWidth: size,
