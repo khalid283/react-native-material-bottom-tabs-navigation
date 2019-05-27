@@ -10,7 +10,9 @@ dist
 # Dependency directory
 node_modules
 
-
+examples
+# examples/android
+# examples/ios
 # examples/.flowconfig
 # examples/.buckconfig
 # examples/app.json
@@ -19,4 +21,7 @@ node_modules
 # examples/package.json
 # examples/package-lock.json
 # examples/.watchmanconfig
-examples/__tests__
+# examples/__tests__
+
+react-native-material-bottom-tabs-navigation-1.0.0.tgz
+react-native-material-bottom-tabs-navigation-1.0.1.tgz
